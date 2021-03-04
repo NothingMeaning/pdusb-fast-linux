@@ -81,18 +81,41 @@ def main(argv):
   except Exception as e:
     print("Failed Open write file ")
 
+  rf = None
+  try:
+    rf = open("readme-mirror.txt", "w")
+  except Exception as e:
+    print("Failed Open readme-mirror.txt file ")
+
+  # bf = None
+  # try:
+  #   bf = open("readme-extramirror.txt", "w")
+  # except Exception as e:
+  #   print("Failed Open readme-extramirror.txt file ")
+
+  rf.write("## Mirror 对应表\n\n")
+  rf.write("| Name  |  Source  |  Gitee  | \n")
+  rf.write("|---|---|---|\n")
+
+  # bf.write("## Mirror 推荐,不是本Repo创建但是推荐使用的\n\n")
+  # bf.write("| Name  |  Source  |  Gitee  | \n")
+  # bf.write("|---|---|---|\n")
+
   try:
     with open(ifile) as json_file:
         data = json.load(json_file)
         for p in data['mirrors']:
           surl = parse(p['dst'])
-          
+          tsrc=p['src']
           if USEHTTP:
-            f.write(p['src']+" "+surl.urls['https']+"\n")
+            tdst=surl.urls['https']
           if USESSH:
-            f.write(p['src']+" "+surl.urls['ssh']+"\n")
+            tdst=surl.urls['ssh']
           if USEGIT:
-            f.write(p['src']+" "+surl.urls['git']+"\n")
+            tdst=surl.urls['git']
+
+          f.write(tsrc+" "+tdst+"\n")
+          rf.write("| " + surl.repo + " | [" + tsrc + "]("+ tsrc + ")] | [" + tdst + "](" + tdst + ") | \n")
             # print('Src: ' + p['src'])
             # print('Dst: ' + p['dst'])
             # print('')
@@ -101,6 +124,11 @@ def main(argv):
 
   if f:
     f.close()
+  if rf:
+    rf.close()
+
+  # if bf:
+  #   bf.close()
 
 if __name__ == "__main__":
    main(sys.argv[0:])

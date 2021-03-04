@@ -1,4 +1,6 @@
 { "mirrors": [
 	{ "src": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git", "dst": "git@gitee.com:pdusb/linux-firmware.git" },
+	{ "src": "https://github.com/micropython/micropython.git", "dst": "git@gitee.com:pdusb/micropython.git" },
+	{ "src": "https://github.com/raspberrypi/pico-micropython-examples.git", "dst": "git@gitee.com:pdusb/pico-micropython-examples.git" },
 	{ "src": "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git", "dst": "https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git" }
 ]}

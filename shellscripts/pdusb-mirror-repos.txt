@@ -1,2 +1,4 @@
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git https://gitee.com/pdusb/linux-firmware.git
+https://github.com/micropython/micropython.git https://gitee.com/pdusb/micropython.git
+https://github.com/raspberrypi/pico-micropython-examples.git https://gitee.com/pdusb/pico-micropython-examples.git
 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git

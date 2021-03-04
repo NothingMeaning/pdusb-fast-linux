@@ -1,3 +1,7 @@
+# Add new repo to this 
+
+Add the mirror to repos.txt
+Run update-gitee-script.sh 
 
 
 # 创建新的git mirror -> gitee
