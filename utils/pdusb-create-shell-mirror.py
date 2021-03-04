@@ -115,7 +115,7 @@ def main(argv):
             tdst=surl.urls['git']
 
           f.write(tsrc+" "+tdst+"\n")
-          rf.write("| " + surl.repo + " | [" + tsrc + "]("+ tsrc + ")] | [" + tdst + "](" + tdst + ") | \n")
+          rf.write("| " + surl.repo + " | [" + tsrc + "]("+ tsrc + ") | [" + tdst + "](" + tdst + ") | \n")
             # print('Src: ' + p['src'])
             # print('Dst: ' + p['dst'])
             # print('')
