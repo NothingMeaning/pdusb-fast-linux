@@ -1,3 +1,12 @@
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git git@gitee.com:pdusb/linux-firmware.git
 https://github.com/micropython/micropython.git git@gitee.com:pdusb/micropython.git
 https://github.com/raspberrypi/pico-micropython-examples.git git@gitee.com:pdusb/pico-micropython-examples.git
+https://github.com/raspberrypi/tinyusb.git git@gitee.com:pdusb/pdusb-fast-pico-tinyusb.git
+https://github.com/raspberrypi/pico-sdk.git git@gitee.com:pdusb/pdusb-fast-pico-sdk.git
+https://github.com/raspberrypi/pico-examples.git git@gitee.com:pdusb/pdusb-fast-pico-examples.git
+https://github.com/raspberrypi/pico-extras.git git@gitee.com:pdusb/pdusb-fast-pico-extras.git
+https://github.com/raspberrypi/pico-playground.git git@gitee.com:pdusb/pdusb-fast-pico-playground.git
+https://github.com/raspberrypi/picoprobe.git git@gitee.com:pdusb/pdusb-fast-picoprobe.git
+https://github.com/raspberrypi/picotool.git https://github.com/raspberrypi/picotool.git
+https://github.com/raspberrypi/openocd.git git@gitee.com:pdusb/pdusb-fast-openocd.git
+https://git.savannah.gnu.org/git/lwip.git git@gitee.com:pdusb/pdusb-fast-lwip.git

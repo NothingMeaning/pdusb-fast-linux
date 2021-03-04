@@ -2,5 +2,14 @@
 	{ "src": "https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git", "dst": "git@gitee.com:pdusb/linux-firmware.git" },
 	{ "src": "https://github.com/micropython/micropython.git", "dst": "git@gitee.com:pdusb/micropython.git" },
 	{ "src": "https://github.com/raspberrypi/pico-micropython-examples.git", "dst": "git@gitee.com:pdusb/pico-micropython-examples.git" },
+	{ "src": "https://github.com/raspberrypi/tinyusb.git", "dst": "git@gitee.com:pdusb/pdusb-fast-pico-tinyusb.git" },
+	{ "src": "https://github.com/raspberrypi/pico-sdk.git", "dst": "git@gitee.com:pdusb/pdusb-fast-pico-sdk.git" },
+	{ "src": "https://github.com/raspberrypi/pico-examples.git", "dst": "git@gitee.com:pdusb/pdusb-fast-pico-examples.git" },
+	{ "src": "https://github.com/raspberrypi/pico-extras.git", "dst": "git@gitee.com:pdusb/pdusb-fast-pico-extras.git" },
+	{ "src": "https://github.com/raspberrypi/pico-playground.git", "dst": "git@gitee.com:pdusb/pdusb-fast-pico-playground.git" },
+	{ "src": "https://github.com/raspberrypi/picoprobe.git", "dst": "git@gitee.com:pdusb/pdusb-fast-picoprobe.git" },
+	{ "src": "https://github.com/raspberrypi/picotool.git", "dst": "https://github.com/raspberrypi/picotool.git" },
+	{ "src": "https://github.com/raspberrypi/openocd.git", "dst": "git@gitee.com:pdusb/pdusb-fast-openocd.git" },
+	{ "src": "https://git.savannah.gnu.org/git/lwip.git", "dst": "git@gitee.com:pdusb/pdusb-fast-lwip.git" },
 	{ "src": "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git", "dst": "https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git" }
 ]}

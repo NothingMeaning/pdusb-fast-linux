@@ -33,4 +33,5 @@ git clone https://gitee.com/pdusb/linux-firmware.git
   git clone $url xxx
 ```
 
-
+## Replace all usable url inside .gitmodules
+pdusb-use-mirror.sh path-to-pdusb-mirror-repos.txt .gitmodules
