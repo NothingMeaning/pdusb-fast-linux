@@ -1,0 +1,7 @@
+# This is correct comment
+ # This is NOT correct comment and No leading space
+# the following line use table as seperator which is NOT correct
+aaaa.git	bbb.it
+
+
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git git@gitee.com:pdusb/linux-firmware.git

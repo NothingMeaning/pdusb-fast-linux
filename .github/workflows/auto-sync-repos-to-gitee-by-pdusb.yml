@@ -1,0 +1,33 @@
+########################################
+#
+########################################
+name: Auto Sync raspberry pico repos to gitee
+
+on:
+  workflow_dispatch:
+  # push推送时触发
+  #push:
+  # 定时任务触发
+  schedule:
+    # 每天北京时间9点跑
+    # Runs at 05 12 18 Everyday
+    - cron:  '0 5,12,18 * * *'
+
+jobs:
+  git-mirror:
+    name: Mirror all repos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure Private Key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEESYNC }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          echo "StrictHostKeyChecking no" >> ~/.ssh/config
+      - name: Sync repos
+        run: |
+          ./pdusb-mirror-github.sh
+      
