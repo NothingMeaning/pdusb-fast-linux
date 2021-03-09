@@ -11,5 +11,6 @@
 	{ "src": "https://github.com/raspberrypi/picotool.git", "dst": "https://github.com/raspberrypi/picotool.git" },
 	{ "src": "https://github.com/raspberrypi/openocd.git", "dst": "git@gitee.com:pdusb/pdusb-fast-openocd.git" },
 	{ "src": "https://git.savannah.gnu.org/git/lwip.git", "dst": "git@gitee.com:pdusb/pdusb-fast-lwip.git" },
+	{ "src": "https://github.com/u-boot/u-boot.git", "dst": "git@gitee.com:pdusb/u-boot.git" },
 	{ "src": "git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git", "dst": "https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git" }
 ]}

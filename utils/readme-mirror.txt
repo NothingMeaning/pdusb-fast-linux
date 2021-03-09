@@ -14,4 +14,5 @@
 | picotool | [https://github.com/raspberrypi/picotool.git](https://github.com/raspberrypi/picotool.git) | [https://github.com/raspberrypi/picotool.git](https://github.com/raspberrypi/picotool.git) | 
 | pdusb-fast-openocd | [https://github.com/raspberrypi/openocd.git](https://github.com/raspberrypi/openocd.git) | [https://gitee.com/pdusb/pdusb-fast-openocd.git](https://gitee.com/pdusb/pdusb-fast-openocd.git) | 
 | pdusb-fast-lwip | [https://git.savannah.gnu.org/git/lwip.git](https://git.savannah.gnu.org/git/lwip.git) | [https://gitee.com/pdusb/pdusb-fast-lwip.git](https://gitee.com/pdusb/pdusb-fast-lwip.git) | 
+| u-boot | [https://github.com/u-boot/u-boot.git](https://github.com/u-boot/u-boot.git) | [https://gitee.com/pdusb/u-boot.git](https://gitee.com/pdusb/u-boot.git) | 
 | linux-stable | [git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git](git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git) | [https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git](https://mirrors.tuna.tsinghua.edu.cn/git/linux-stable.git) | 
