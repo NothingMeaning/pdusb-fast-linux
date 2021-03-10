@@ -11,3 +11,4 @@ https://github.com/raspberrypi/picotool.git https://github.com/raspberrypi/picot
 https://github.com/raspberrypi/openocd.git git@gitee.com:pdusb/pdusb-fast-openocd.git
 https://git.savannah.gnu.org/git/lwip.git git@gitee.com:pdusb/pdusb-fast-lwip.git
 https://github.com/u-boot/u-boot.git git@gitee.com:pdusb/u-boot.git
+https://github.com/ARM-software/arm-trusted-firmware.git git@gitee.com:pdusb/arm-trusted-firmware.git
