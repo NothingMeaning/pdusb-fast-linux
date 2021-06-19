@@ -7,7 +7,7 @@ https://github.com/raspberrypi/pico-examples.git git@gitee.com:pdusb/pdusb-fast-
 https://github.com/raspberrypi/pico-extras.git git@gitee.com:pdusb/pdusb-fast-pico-extras.git
 https://github.com/raspberrypi/pico-playground.git git@gitee.com:pdusb/pdusb-fast-pico-playground.git
 https://github.com/raspberrypi/picoprobe.git git@gitee.com:pdusb/pdusb-fast-picoprobe.git
-https://github.com/raspberrypi/picotool.git https://github.com/raspberrypi/picotool.git
+https://github.com/raspberrypi/picotool.git git@gitee.com:pdusb/pdusb-fast-picotool.git
 https://github.com/raspberrypi/openocd.git git@gitee.com:pdusb/pdusb-fast-openocd.git
 https://git.savannah.gnu.org/git/lwip.git git@gitee.com:pdusb/pdusb-fast-lwip.git
 https://github.com/u-boot/u-boot.git git@gitee.com:pdusb/u-boot.git
